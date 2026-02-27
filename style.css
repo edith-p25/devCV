@@ -1,3 +1,19 @@
-*{
-    
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', 'Segoe UI', sans-serif;
+            background: #a9b2bd;
+            color: #1d368a;
+            line-height: 1.6;
+        }
+
+        .cv-logo {
+            font-weight: 600;
+            font-size: 1.5em;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(50, 73, 71);
+            color: #889ee6;
+        }
