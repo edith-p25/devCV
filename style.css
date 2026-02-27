@@ -6,7 +6,7 @@
         body {
             font-family: 'Inter', 'Segoe UI', sans-serif;
             background: #a9b2bd;
-            color: #1d368a;
+            color: #030f33;
             line-height: 1.6;
         }
 
@@ -16,4 +16,12 @@
             font-family: 'Times New Roman', Times, serif;
             background-color: rgb(50, 73, 71);
             color: #889ee6;
+            border-radius: 5px;
+        }
+        .cv-container {
+            padding: 50px;
+            color: #e6f1ff;
+            border-radius: 100px;
+            
+                     
         }
