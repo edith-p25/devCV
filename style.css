@@ -43,7 +43,8 @@
         }
         .intro-img{
             margin-top: 40px;
-        }.img{
+        }
+        .img-wrapp {
             width: 350px;
             height: 450px;
             border-radius: 40px;
@@ -54,11 +55,14 @@
             background: linear-gradient(180deg, #00bfff, #8a2be2);
         }
            .img-wrapper img {
-            width: 100%;
-            height: 100%;
+            width: 350px;
+            height: 450px;
             object-fit: cover;
-            border-radius: 35px;
+            border-radius: 40px;
+            margin-left: 900px;
+            margin-top: -260px;
         }
+        
 
             
             
