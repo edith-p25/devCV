@@ -10,7 +10,8 @@
             line-height: 1.6;
         }
 
-        .cv-logo {
+        /*Introduction*/
+        .intro-logo {
             font-weight: 600;
             font-size: 1.5em;
             font-family: 'Times New Roman', Times, serif;
@@ -19,7 +20,7 @@
             border-radius: 10px;
             
         }
-        .cv-container {
+        .intro-container {
             padding: 50px;
             color: #19437a;
             border-radius: 50px;
@@ -27,6 +28,7 @@
                   
         }
         .intro-subtitle{
+            
             color: #2e574d;
             font-size: 1.6em;
             margin-bottom: 200px;
@@ -43,6 +45,8 @@
             line-height: 1.2;
             margin-top: 100px;
         }
+
+        /*profile*/
         .intro-img{
             margin-top: 40px;
         }
@@ -69,12 +73,15 @@
             border-color: linear-gradient(180deg, #00bfff #8a2be2);        
         }
         
+    /* Navigation */ 
+    .nav-content{
+            position: relative;
+            
+
+    }
         .nav-bar{
             display: flex;
             justify-content:left;
-            
-            
-        
         }
 
         .nav-bar a {
@@ -84,7 +91,7 @@
            padding: 10px 20px;
            border-radius: 20px;
            position: relative;
-           transition: 0.4s;
+           transition: 0.3s;
            margin-top: 40px;
            background-color:linear-gradient(180deg, #00bfff #8a2be2);;
            border: solid;
@@ -93,6 +100,10 @@
             color: rgb(105, 75, 211);
             box-shadow: 0 0 15px rgb(131, 88, 187), 0 0 40px rgb(67, 56, 133);
         }
-
+        .nav-content {
+            position: relative;
+            display: block;
+            margin-top: auto;
+        }
             
             
