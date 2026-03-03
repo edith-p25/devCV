@@ -1,0 +1,231 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .cv-container {
+            display: flex;
+            max-width: 1000px;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Colonne de gauche (bleue) */
+        .sidebar {
+            background-color: #1e2b4f;
+            color: white;
+            width: 35%;
+            padding: 30px 20px;
+        }
+
+        /* Colonne de droite (blanche) */
+        .main-content {
+            width: 65%;
+            padding: 30px;
+            background-color: white;
+        }
+
+        /* Style du nom dans la sidebar */
+        .name-title h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .name-title h2 {
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            color: #a0b4d4;
+        }
+
+        /* Sections de la sidebar */
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #3a4a6e;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .section p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #e0e0e0;
+            margin-bottom: 10px;
+        }
+
+        .languages {
+            list-style: none;
+        }
+
+        .languages li {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .skills {
+            list-style: none;
+        }
+
+        .skills li {
+            margin-bottom: 10px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+
+        .skills li:before {
+            content: "•";
+            color: #a0b4d4;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        .contact-info {
+            list-style: none;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info li:before {
+            content: "•";
+            color: #a0b4d4;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        /* Sections de la colonne droite */
+        .right-section {
+            margin-bottom: 25px;
+        }
+
+        .right-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #1e2b4f;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .education-item {
+            margin-bottom: 20px;
+        }
+
+        .education-item .date {
+            font-weight: 600;
+            color: #1e2b4f;
+            margin-bottom: 5px;
+        }
+
+        .education-item .title {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .education-item ul {
+            list-style: none;
+            margin-left: 15px;
+        }
+
+        .education-item li {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 3px;
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .education-item li:before {
+            content: "•";
+            color: #1e2b4f;
+            position: absolute;
+            left: 0;
+        }
+
+        .job-item {
+            margin-bottom: 20px;
+        }
+
+        .job-item .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .job-item .job-title {
+            font-weight: 600;
+            color: #1e2b4f;
+        }
+
+        .job-item .job-date {
+            color: #777;
+            font-size: 14px;
+        }
+
+        .job-item .job-company {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .job-item ul {
+            list-style: none;
+            margin-left: 15px;
+        }
+
+        .job-item li {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 3px;
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .job-item li:before {
+            content: "•";
+            color: #1e2b4f;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .cv-container {
+                flex-direction: column;
+            }
+            .sidebar, .main-content {
+                width: 100%;
+            }
+        }

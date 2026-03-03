@@ -11,6 +11,12 @@
         }
 
         /*Introduction*/
+        .intro-container {
+            padding: 50px;
+            color: #19437a;
+            border-radius: 50px;
+            background-color: beige;            
+        }
         .intro-logo {
             font-weight: 600;
             font-size: 1.5em;
@@ -18,32 +24,29 @@
             background: linear-gradient(180deg, #7596a0, #4b286b);
             color: #c6cee9;
             border-radius: 10px;
-            
         }
-        .intro-container {
-            padding: 50px;
-            color: #19437a;
-            border-radius: 50px;
-            background-color: beige;
-                  
-        }
-        .intro-subtitle{
-            
+        .intro-subtitle{ 
             color: #2e574d;
             font-size: 1.6em;
             margin-bottom: 200px;
             margin: 0px;
             line-height: 2.5;
-
         }
         .intro-name {
-        
             font-size: 3.5em;
             font-weight: 700;
             color: #6f9cd8;
             margin-bottom: 10px;
             line-height: 1.2;
             margin-top: 100px;
+        }
+
+        /*information*/
+        .info-content{
+            display: flexbox;
+            margin-right: 400px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify; 
         }
 
         /*profile*/
@@ -76,6 +79,8 @@
     /* Navigation */ 
     .nav-content{
             position: relative;
+            margin-bottom: 80px;
+            margin-top: 500px;
             
 
     }
@@ -105,5 +110,13 @@
             display: block;
             margin-top: auto;
         }
-            
-            
+          
+    /*responsive*/
+    @media (max-width: 760px){
+        .intro{
+            flex-direction: column;
+        }
+        .nav-content, .intro-container {
+                width: 100%;
+            }
+    }
