@@ -5,8 +5,7 @@
         }
         body {
             font-family: 'Inter', 'Segoe UI', sans-serif;
-            background: #182a44;
-            color: #030f33;
+            background: #041630;
             line-height: 1.6;
         }
 
@@ -46,15 +45,43 @@
                 line-height: 1.2;
                 margin-top: 100px;
             }
+            .par{
+             color: #5f7d86;
+             text-align: justify;
+             margin-top: 1px;
+            }
 
         /*Information*/
         .info-content{
+            position: relative;
+            border-radius: 5px;
+            border-color: rgb(34, 54, 54);
+            border: 3px solid rgb(23, 53, 65);
+            width: 125vh;
+            background: linear-gradient(180deg, #20353b, #271a33);
+        }
+        .info {
             display: block;
             margin-right: 400px;
             width: 120vh;
-            margin-top: 100px;
+            padding: 25px;
             font-family: 'Times New Roman', Times, serif;
-            text-align: justify; 
+           
+           
+        }
+        .conatain-small{
+            color: #5f7d86;
+            font-size: larger;
+            font-weight: 1.6em;
+            display: flex;
+
+        }
+        .info-small{
+            color: #20477a;
+            font-size: 2.6rem;
+            font-weight: 3.5em;
+            display: inline-block;
+
         }
 
         /*profile*/
