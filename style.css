@@ -59,7 +59,10 @@
             border: 3px solid rgb(23, 53, 65);
             width: 125vh;
             background: linear-gradient(180deg, #20353b, #271a33);
-        }
+            transition: 0.2s;
+            padding: 10px 20px;
+            border-radius: 20px;
+        } 
         .info {
             display: block;
             margin-right: 400px;
