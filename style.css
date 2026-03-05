@@ -48,7 +48,8 @@
             .par{
              color: #5f7d86;
              text-align: justify;
-             margin-top: 1px;
+             margin-top: 50px;
+             font-size: 1.8em;
             }
 
         /*Information*/
@@ -121,11 +122,8 @@
         
     /* Navigation */ 
      
-             .nav-content{
+        .nav-content{
             position: relative;
-        
-    
-
     }
         .nav-bar{
             display: flex;
