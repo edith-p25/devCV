@@ -41,9 +41,10 @@
 
         /* Style du nom dans la sidebar */
         .name-title h1 {
-            font-size: 28px;
+            font-size: 24px;
             margin-bottom: 5px;
             font-weight: 600;
+            line-height: 1.2;
         }
 
         .name-title h2 {
@@ -70,51 +71,23 @@
 
         .section p {
             font-size: 14px;
-            line-height: 1.5;
+            line-height: 1.6;
             color: #e0e0e0;
             margin-bottom: 10px;
         }
 
-        .languages {
+        .languages, .skills, .contact-info {
             list-style: none;
         }
 
-        .languages li {
-            margin-bottom: 8px;
-            font-size: 14px;
-        }
-
-        .skills {
-            list-style: none;
-        }
-
-        .skills li {
+        .languages li, .skills li, .contact-info li {
             margin-bottom: 10px;
             font-size: 14px;
             display: flex;
             align-items: center;
         }
 
-        .skills li:before {
-            content: "•";
-            color: #a0b4d4;
-            font-weight: bold;
-            margin-right: 10px;
-            font-size: 16px;
-        }
-
-        .contact-info {
-            list-style: none;
-        }
-
-        .contact-info li {
-            margin-bottom: 10px;
-            font-size: 14px;
-            display: flex;
-            align-items: center;
-        }
-
-        .contact-info li:before {
+        .skills li:before, .contact-info li:before, .languages li:before {
             content: "•";
             color: #a0b4d4;
             font-weight: bold;
@@ -124,7 +97,7 @@
 
         /* Sections de la colonne droite */
         .right-section {
-            margin-bottom: 25px;
+            margin-bottom: 30px;
         }
 
         .right-title {
@@ -151,11 +124,13 @@
         .education-item .title {
             font-weight: 600;
             margin-bottom: 5px;
+            color: #333;
         }
 
         .education-item ul {
             list-style: none;
             margin-left: 15px;
+            margin-top: 5px;
         }
 
         .education-item li {
@@ -174,7 +149,7 @@
         }
 
         .job-item {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .job-item .job-header {
@@ -203,14 +178,16 @@
         .job-item ul {
             list-style: none;
             margin-left: 15px;
+            margin-top: 5px;
         }
 
         .job-item li {
             font-size: 14px;
             color: #555;
-            margin-bottom: 3px;
+            margin-bottom: 5px;
             position: relative;
             padding-left: 15px;
+            line-height: 1.4;
         }
 
         .job-item li:before {
@@ -218,6 +195,11 @@
             color: #1e2b4f;
             position: absolute;
             left: 0;
+        }
+
+        /* Correction pour la faute de frappe */
+        .skills li:contains("communicaioo") {
+            list-style-type: none;
         }
 
         /* Responsive */
@@ -228,4 +210,18 @@
             .sidebar, .main-content {
                 width: 100%;
             }
+            
+            .name-title h1 {
+                font-size: 22px;
+            }
+        }
+
+        /* Style pour les badges ou mises en évidence */
+        .badge {
+            background-color: #3a4a6e;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-left: 5px;
         }

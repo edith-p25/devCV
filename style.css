@@ -170,4 +170,240 @@
 
 
 
-    
+     @media screen and (max-width: 1400px) {
+       .intro-container {
+           width: 170vh;
+           height: auto;
+           min-height: 150vh;
+           padding: 40px;
+       }
+       
+       .intro-name {
+           font-size: 3em;
+       }
+       
+       .img-wrapper {
+           width: 300px;
+           height: 400px;
+           margin-top: -400px;
+       }
+       
+       .info-content {
+           width: 110vh;
+       }
+       
+       .info {
+           width: 105vh;
+           margin-right: 300px;
+       }
+   }
+
+   /* Pour les écrans moyens (tablettes) */
+   @media screen and (max-width: 1200px) {
+       .intro-container {
+           width: 140vh;
+           padding: 35px;
+       }
+       
+       .intro-name {
+           font-size: 2.5em;
+           margin-top: 80px;
+       }
+       
+       .par {
+           font-size: 1.5em;
+           margin-top: 40px;
+       }
+       
+       .img-wrapper {
+           width: 250px;
+           height: 350px;
+           margin-top: -350px;
+       }
+       
+       .info-content {
+           width: 90vh;
+       }
+       
+       .info {
+           width: 85vh;
+           margin-right: 250px;
+           padding: 20px;
+       }
+       
+       .info-small {
+           font-size: 2.2rem;
+       }
+   }
+
+   /* Pour les petits écrans (tablettes et grands mobiles) */
+   @media screen and (max-width: 992px) {
+       .intro-container {
+           width: 100%;
+           height: auto;
+           min-height: auto;
+           padding: 30px;
+           border-radius: 30px;
+       }
+       
+       .intro-subtitle {
+           font-size: 1.3em;
+       }
+       
+       .intro-name {
+           font-size: 2.2em;
+           margin-top: 60px;
+       }
+       
+       .par {
+           font-size: 1.3em;
+           margin-top: 30px;
+       }
+       
+       .img-wrapper {
+           width: 220px;
+           height: 300px;
+           margin-top: -300px;
+       }
+       
+       .nav-bar a {
+           font-size: 18px;
+           padding: 8px 16px;
+       }
+       
+       .info-content {
+           width: 100%;
+           margin-top: 30px;
+       }
+       
+       .info {
+           width: 100%;
+           margin-right: 0;
+           padding: 15px;
+       }
+       
+       .info-small {
+           font-size: 2rem;
+       }
+       
+       .conatain-small {
+           font-size: 1em;
+       }
+   }
+
+   /* Pour les mobiles */
+   @media screen and (max-width: 768px) {
+       .intro-container {
+           padding: 25px;
+           border-radius: 20px;
+       }
+       
+       .intro-logo {
+           font-size: 1.2em;
+       }
+       
+       .intro-subtitle {
+           font-size: 1.1em;
+           line-height: 2;
+       }
+       
+       .intro-name {
+           font-size: 1.8em;
+           margin-top: 40px;
+       }
+       
+       .par {
+           font-size: 1.1em;
+           margin-top: 20px;
+       }
+       
+       .img-wrapper {
+           position: relative;
+           margin: 20px auto;
+           top: auto;
+           right: auto;
+           width: 200px;
+           height: 250px;
+           margin-top: 30px;
+       }
+       
+       .nav-bar {
+           justify-content: center;
+           margin-top: 20px;
+       }
+       
+       .nav-bar a {
+           font-size: 16px;
+           padding: 6px 12px;
+           margin-top: 10px;
+       }
+       
+       .info-content {
+           margin-top: 20px;
+           padding: 10px;
+       }
+       
+       .info {
+           padding: 10px;
+       }
+       
+       .info-small {
+           font-size: 1.6rem;
+       }
+       
+       .footer {
+           font-size: 0.8em;
+           padding: 15px;
+       }
+   }
+
+   /* Pour les très petits écrans */
+   @media screen and (max-width: 480px) {
+       .intro-container {
+           padding: 15px;
+           border-radius: 15px;
+       }
+       
+       .intro-name {
+           font-size: 1.4em;
+       }
+       
+       .par {
+           font-size: 0.9em;
+       }
+       
+       .img-wrapper {
+           width: 150px;
+           height: 200px;
+       }
+       
+       .nav-bar {
+           gap: 10px;
+       }
+       
+       .nav-bar a {
+           font-size: 14px;
+           padding: 5px 10px;
+       }
+       
+       .info-small {
+           font-size: 1.3rem;
+       }
+       
+       .conatain-small {
+           font-size: 0.9em;
+       }
+       
+       .footer p {
+           font-size: 0.7em;
+       }
+   }
+
+   /* Pour les écrans très larges */
+   @media screen and (min-width: 2000px) {
+       .intro-container {
+           width: 1800px;
+           margin: 0 auto;
+       }
+   }
+
